@@ -3,10 +3,19 @@ body {
   padding: 0px;
 }
 
-#player {
+section {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
-    margin-left: auto;
-    margin-right: auto;
+#player {
   width: 640px;
   height: 480px;
 }
